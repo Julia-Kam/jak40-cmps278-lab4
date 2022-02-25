@@ -1,0 +1,65 @@
+body {
+  background-image: url(images/background.gif);
+}
+
+.columns {
+  float: right;
+  width: 70%;
+}
+
+.green-container {
+  border: solid 10px white;
+  background-color: white;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-family: sans-serif, helvetica;
+  color: #189898;
+  overflow: hidden;
+}
+
+.red-box {
+  text-align: right;
+  background-color: #a8f0f0;
+}
+
+.orange-box {
+  font-size: 14px;
+}
+
+.blue-box {
+  border: solid 4px #c2e9e9;
+  background-color: #e8fbfb;
+  padding: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+span {
+  border: 0;
+  border-bottom: solid 2px blue;
+  border-style: dashed;
+}
+
+.img {
+  float: right;
+}
+
+.friends {
+  background-color: #80c9c9;
+  color: #117878;
+  border: solid 4px #117878;
+  padding: 5px;
+  margin-top: 10px;
+  float: left;
+  width: 25%;
+}
+
+.friends a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.friends ul {
+  list-style-position: inside;
+  padding-left: 0;
+}
